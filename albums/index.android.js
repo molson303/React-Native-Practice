@@ -7,7 +7,7 @@ import AlbumList from './src/components/AlbumList';
 //A component is something that produces some amount of text or content that we can render on a mobile device
 //A JS function that returns some amount of JSX
 const App = () => (
-<View>
+<View style={{ flex: 1}}>
   <Header headerText={'Albums'}/>
   <AlbumList />
 </View>
